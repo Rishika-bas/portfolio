@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rishika Basneth</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a href="#hero" class="nav-logo">RB</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Work</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#beyond">Other Side</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-pulse"></div>
+    <div class="hero-content">
+      <p class="hero-pre">currently: thinking in systems, performing in moments</p>
+      <h1 class="hero-name">
+        <span class="name-first">Rishika</span><span class="name-last"> Basneth</span>
+      </h1>
+      <p class="hero-sub">Class 11. Logical by nature. Creative by choice.</p>
+      <div class="hero-ctas">
+        <a href="#projects" class="btn-primary">See My Work</a>
+        <a href="#about" class="btn-text">About me <span class="arrow">→</span></a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">scroll</div>
+  </section>
+
+  <!-- SPINE WRAPPER (About → Contact) -->
+  <div class="spine-wrapper">
+
+    <!-- SPINE LINE -->
+    <div class="spine-line" id="spineLine">
+      <div class="spine-node" data-section="about"></div>
+      <div class="spine-node" data-section="skills"></div>
+      <div class="spine-node" data-section="projects"></div>
+      <div class="spine-node" data-section="achievements"></div>
+      <div class="spine-node" data-section="beyond"></div>
+      <div class="spine-node" data-section="contact"></div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text">
+            <span class="section-label">01 — About</span>
+            <h2>I solve problems.<br />Then I ask better ones.</h2>
+            <p>I'm a Class 11 student studying Physics, Chemistry, Maths, and Computer Science. I'm drawn to the kind of thinking that sits at the edge of logic and creativity — where a well-structured algorithm feels as satisfying as a well-placed note.</p>
+            <p>I work in Java, think in patterns, and I'm currently going deep on Data Structures and Algorithms. I'm also quietly fascinated by how interfaces are designed to feel effortless.</p>
+            <div class="currently-block">
+              <span class="currently-label">Currently</span>
+              <div class="currently-items">
+                <span>Class 11, PCM + CS</span>
+                <span>Learning: Advanced DSA</span>
+                <span>Exploring: UI/UX principles</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-aside">
+            <div class="about-quote-block">
+              <p class="about-quote">"I believe in depth over breadth. One thing understood completely beats ten things skimmed."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container">
+        <span class="section-label">02 — Skills</span>
+        <h2>What I know.<br />What I'm building toward.</h2>
+        <div class="skills-grid">
+          <div class="skills-col">
+            <p class="skills-col-title">What I Know</p>
+            <div class="skill-cards">
+              <div class="skill-card">
+                <span class="skill-icon">&#9670;</span>
+                <div>
+                  <p class="skill-name">Java</p>
+                  <p class="skill-note">OOP, logic-heavy programs</p>
+                </div>
+              </div>
+              <div class="skill-card">
+                <span class="skill-icon">&#9670;</span>
+                <div>
+                  <p class="skill-name">Basic DSA</p>
+                  <p class="skill-note">Arrays, linked lists, stacks, queues</p>
+                </div>
+              </div>
+              <div class="skill-card">
+                <span class="skill-icon">&#9670;</span>
+                <div>
+                  <p class="skill-name">Problem Solving</p>
+                  <p class="skill-note">Decomposition, edge case thinking</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skills-col">
+            <p class="skills-col-title">What I'm Exploring</p>
+            <div class="skill-cards">
+              <div class="skill-card exploring">
+                <span class="skill-icon">&#9671;</span>
+                <div>
+                  <p class="skill-name">Competitive Programming</p>
+                  <p class="skill-note">Contest problems, timed problem solving</p>
+                </div>
+              </div>
+              <div class="skill-card exploring">
+                <span class="skill-icon">&#9671;</span>
+                <div>
+                  <p class="skill-name">C++</p>
+                  <p class="skill-note">In progress — learning for CP</p>
+                </div>
+              </div>
+              <div class="skill-card exploring">
+                <span class="skill-icon">&#9671;</span>
+                <div>
+                  <p class="skill-name">DSA Pattern Recognition</p>
+                  <p class="skill-note">Identifying patterns across problem types</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="skills-footer">I believe in depth over breadth.</p>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <span class="section-label">03 — Work</span>
+        <h2>Things I've Built<br /><em>(and what they taught me)</em></h2>
+        <div class="projects-list">
+
+          <!-- Featured project -->
+          <div class="project-card featured">
+            <div class="project-header">
+              <span class="project-tag">Java</span>
+              <span class="project-tag">DSA</span>
+            </div>
+            <h3 class="project-name">Student Grade Analyzer</h3>
+            <p class="project-desc">A Java program that takes student scores, computes statistics, ranks students, and flags outliers using sorting and array manipulation.</p>
+            <p class="project-lesson">"Edge cases are where the real thinking happens. The first version worked. The fifth version was correct."</p>
+            <a href="#" class="project-link">View on GitHub →</a>
+          </div>
+
+          <!-- Regular projects -->
+          <div class="projects-two-col">
+            <div class="project-card">
+              <div class="project-header">
+                <span class="project-tag">Java</span>
+                <span class="project-tag">Logic</span>
+              </div>
+              <h3 class="project-name">Pattern Printer</h3>
+              <p class="project-desc">A collection of nested loop pattern programs — pyramids, diamonds, number triangles — built to master loop logic and control flow.</p>
+              <p class="project-lesson">"Taught me that most complex outputs are just simple rules repeated precisely."</p>
+              <a href="#" class="project-link">View on GitHub →</a>
+            </div>
+
+            <div class="project-card in-progress">
+              <div class="project-header">
+                <span class="project-tag in-progress-tag">In Progress</span>
+              </div>
+              <h3 class="project-name">Currently building →</h3>
+              <p class="project-desc">A DSA problem tracker — logging problems solved, patterns identified, and personal notes on approach. Part practice log, part thinking journal.</p>
+              <p class="project-lesson">"The goal isn't to solve more problems. It's to solve them better."</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="section" id="achievements">
+      <div class="container">
+        <span class="section-label">04 — Achievements</span>
+        <h2>Moments that<br />marked the work.</h2>
+        <ol class="achievements-list">
+          <li class="achievement-item">
+            <span class="achievement-marker"></span>
+            <div class="achievement-content">
+              <p class="achievement-title">1st Place — International Environment Olympiad</p>
+              <p class="achievement-sub">Tree of Harmony category</p>
+            </div>
+          </li>
+          <li class="achievement-item">
+            <span class="achievement-marker"></span>
+            <div class="achievement-content">
+              <p class="achievement-title">3rd Place — International Novus Conference</p>
+              <p class="achievement-sub">Rap Esoteric category</p>
+            </div>
+          </li>
+          <li class="achievement-item">
+            <span class="achievement-marker"></span>
+            <div class="achievement-content">
+              <p class="achievement-title">2nd Place — Circuitsphere Symposium</p>
+              <p class="achievement-sub">First edition of the competition</p>
+            </div>
+          </li>
+          <li class="achievement-item">
+            <span class="achievement-marker"></span>
+            <div class="achievement-content">
+              <p class="achievement-title">Certification — Electronic Systems, IIT Madras</p>
+              <p class="achievement-sub">Successfully completed an 8-week course</p>
+            </div>
+          </li>
+          <li class="achievement-item">
+            <span class="achievement-marker"></span>
+            <div class="achievement-content">
+              <p class="achievement-title">TOSC Qualified — IIT Kanpur Workshop</p>
+              <p class="achievement-sub">Cleared examinations and attended the workshop</p>
+            </div>
+          </li>
+          <li class="achievement-item">
+            <span class="achievement-marker"></span>
+            <div class="achievement-content">
+              <p class="achievement-title">Selected Speaker — Chief Justices Conference</p>
+              <p class="achievement-sub">Presented an appeal before eminent participants</p>
+            </div>
+          </li>
+          <li class="achievement-item">
+            <span class="achievement-marker"></span>
+            <div class="achievement-content">
+              <p class="achievement-title">Participant — NASA Space Apps Challenge</p>
+              <p class="achievement-sub">Global hackathon by NASA</p>
+            </div>
+          </li>
+          <li class="achievement-item">
+            <span class="achievement-marker"></span>
+            <div class="achievement-content">
+              <p class="achievement-title">Member — JYEP Program</p>
+              <p class="achievement-sub">Youth engagement and leadership initiative</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- BEYOND CODE -->
+    <section class="section beyond-section" id="beyond">
+      <div class="beyond-inner">
+        <div class="container">
+          <span class="section-label">05 — The Other Side of the Equation</span>
+          <div class="beyond-grid">
+            <div class="beyond-left">
+              <blockquote class="beyond-quote">
+                "Competitive singing taught me that preparation is invisible. Only the performance is real."
+              </blockquote>
+              <p class="beyond-body">Stage discipline and debugging patience come from the same place — the willingness to repeat something until it's right, not just until it works. Memorizing lyrics and recognizing code patterns both train the same muscle: structured recall under pressure.</p>
+              <p class="beyond-body">Performing in competitions taught me that confidence isn't the absence of nerves. It's preparation so thorough that nerves become fuel.</p>
+            </div>
+            <div class="beyond-right">
+              <p class="terminal-label">things that fascinate me</p>
+              <div class="terminal-block">
+                <p><span class="terminal-prompt">&gt;</span> why good UI feels invisible</p>
+                <p><span class="terminal-prompt">&gt;</span> how recursion mirrors storytelling</p>
+                <p><span class="terminal-prompt">&gt;</span> the gap between knowing and understanding</p>
+                <p><span class="terminal-prompt">&gt;</span> why some problems feel like music</p>
+                <p><span class="terminal-cursor">_</span></p>
+              </div>
+            </div>
+          </div>
+          <p class="beyond-anchor">I don't separate who I am from how I think.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="contact-container">
+        <span class="section-label" style="display:block; margin-bottom:18px;">06 — Contact</span>
+        <h2>Open to opportunities,<br />collaborations, and conversations.</h2>
+        <p class="contact-sub">Whether it's an internship, a project, or just a good problem to think through together.</p>
+        <a href="mailto:rishika@email.com" class="contact-email">rishikabasneth@gmail.com</a>
+
+      </div>
+    </section>
+
+  </div><!-- end spine-wrapper -->
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Designed with logic. Built with curiosity.</p>
+    <p class="footer-copy">&copy; 2026 Rishika Basneth</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
